@@ -1,0 +1,22 @@
+{
+  "name": "migrate-subreddits",
+  "version": "1.0.0",
+  "description": "Tool for migrating subreddits from from one account to another",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "migrate": "node index.js"
+  },
+  "keywords": [
+    "reddit",
+    "subreddit",
+    "migrate"
+  ],
+  "author": "https://github.com/kirkovg",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "node-fetch": "3.0.0"
+  }
+}
